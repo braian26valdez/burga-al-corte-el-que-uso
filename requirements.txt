@@ -1,2 +1,3 @@
+python-dotenv
 PyQt5
 mysql-connector-python
