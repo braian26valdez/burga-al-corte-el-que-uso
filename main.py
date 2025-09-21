@@ -14,7 +14,7 @@ import urllib.parse
 import csv
 from collections import defaultdict
 from datetime import datetime, date, time, timedelta
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import mysql.connector
 from mysql.connector import Error
 
@@ -1321,3 +1321,4 @@ if __name__ == "__main__":
         with open('arranque_log.txt', 'a', encoding='utf-8') as f:
             f.write(f"[FATAL] {datetime.now()} - Exception: {e}\n")
         sys.exit(1)
+
